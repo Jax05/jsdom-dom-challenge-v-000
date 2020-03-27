@@ -6,5 +6,5 @@
 // disable all buttons except the pause button
 // the pause button should then show the text "resume."
 // When 'resume' is clicked, it should restart the counter and re-enable the buttons.
-// 
+//
 // As a user, I can leave comments on my gameplay, such as: "Wow, what a fun game this is."
