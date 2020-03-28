@@ -42,14 +42,14 @@ document.addEventListener("DOMContentLoaded", () => {
       for (let i = 0; i < buttons.length; i++) {
         if (buttons[i].id != "pause") {
           buttons[i].disabled = true;
-        }
-      }
+        };
+      };
     } else {
       pause.innerText = "pause";
       for (let i = 0; i < buttons.length; i++) {
         buttons[i].disabled = false;
-      }
-    }
+      };
+    };
   //   if (pause.innerText == 'pause'){
   //   pause.innerText = 'resume';
   //   // set all other buttons on disabled
