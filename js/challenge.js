@@ -36,7 +36,7 @@ document.addEventListener("DOMContentLoaded", () => {
     counter.innerHTML--;
   };
 
-  function pauseButtonClicked() { // terrible code but couldn't get it to work with a loop
+  function pauseButtonClicked() { // terrible code needs revision
     if (pause.innerText == "pause") {
       pause.innerText = "resume";
 
