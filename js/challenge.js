@@ -54,7 +54,7 @@ document.addEventListener("DOMContentLoaded", () => {
       plus.disabled = false;
       minus.disabled = false;
 
-      startInterval;
+      startInterval = setInterval(incrementPerSecond, 1000);
     }
   };
 
