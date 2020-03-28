@@ -11,11 +11,11 @@
 
 document.addEventListener("DOMContentLoaded", () => {
   let counter = document.getElementById("counter").innerText;
-  // let increment = setInterval(incrementTimer, 1000);
+  let increment = setInterval(increment, 1000);
 
-  function incrementTimer() {
+  function increment() {
     console.log(counter);
   };
 
-  incrementTimer();
+  increment();
 });
