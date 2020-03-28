@@ -44,6 +44,8 @@ document.addEventListener("DOMContentLoaded", () => {
       heart.disabled = true;
       plus.disabled = true;
       minus.disabled = true;
+
+      clearInterval(startInterval);
     } else {
       pause.innerText = "pause";
 
