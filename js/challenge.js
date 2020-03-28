@@ -17,11 +17,11 @@ document.addEventListener("DOMContentLoaded", () => {
     if (counter.innerHTML < 5) {
       counter.innerHTML++;
     } else {
-      clearInterval(incrementCounter);
+      clearInterval(increment);
     }
   };
 
-  // function
+  // function 
 
   increment;
 });
