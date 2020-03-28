@@ -46,12 +46,13 @@ document.addEventListener("DOMContentLoaded", () => {
       minus.disabled = true;
     } else {
       pause.innerText = "pause";
-      counter.innerHTML = "0";
 
       submit.disabled = false;
       heart.disabled = false;
       plus.disabled = false;
       minus.disabled = false;
+      
+      startInterval;
     }
   };
 
