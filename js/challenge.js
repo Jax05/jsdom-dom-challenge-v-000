@@ -54,9 +54,9 @@ document.addEventListener("DOMContentLoaded", () => {
     //
     // };
     //
-    // function pauseNotActive() {
-    //
-    // };
+    function pauseNotActive() {
+      pause.innerText = "pause";
+    };
   };
 
   startInterval;
