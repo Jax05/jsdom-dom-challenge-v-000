@@ -1,4 +1,3 @@
-// As a user, I can 'like' an individual number of the counter. I should see count of the number of 'likes' associated with that number.
 // As a user, I can leave comments on my gameplay, such as: "Wow, what a fun game this is."
 
 document.addEventListener("DOMContentLoaded", () => {
@@ -61,6 +60,19 @@ document.addEventListener("DOMContentLoaded", () => {
 
     likes.append(like);
   };
+
+  function addComment() {
+    let form = document.getElementById("comment-form");
+
+    form.addEventListener("click", function(event) {
+      let comment = document.createElement("p");
+      let input = form.value;
+      comment.innerText = input;
+      
+      event.preventDefault();
+      comments.append(comment);
+    });
+  }
 
   startInterval;
 });
