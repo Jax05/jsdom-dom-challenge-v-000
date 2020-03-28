@@ -37,35 +37,35 @@ document.addEventListener("DOMContentLoaded", () => {
   };
 
   function pauseButtonClicked() {
-    // if (pause.innerText = "pause") {
-    //   pause.innerText = "resume";
-    //   for (let i = 0; i < buttons.length; i++) {
-    //     if (buttons[i].id != "pause") {
-    //       buttons[i].disabled = true;
-    //     }
-    //   }
-    // } else {
-    //   pause.innerText = "pause";
-    //   for (let i = 0; i < buttons.length; i++) {
-    //     buttons[i].disabled = false;
-    //   }
-    // }
-    if (pause.innerText == 'pause'){
-    pause.innerText = 'resume';
-    // set all other buttons on disabled
-    document.getElementById("submit").disabled = true;
-    document.getElementById("heart").disabled = true;
-    document.getElementById("plus").disabled = true;
-    document.getElementById("minus").disabled = true;
-  }
-  else {
-    pause.innerText = 'pause';
-    // set all other buttons on enabled
-    document.getElementById("submit").disabled = false;
-    document.getElementById("heart").disabled = false;
-    document.getElementById("plus").disabled = false;
-    document.getElementById("minus").disabled = false;
-  }
+    if (pause.innerText = "pause") {
+      pause.innerText = "resume";
+      for (let i = 0; i < buttons.length; i++) {
+        if (buttons[i].id != "pause") {
+          buttons[i].disabled = true;
+        }
+      }
+    } else {
+      pause.innerText = "pause";
+      for (let i = 0; i < buttons.length; i++) {
+        buttons[i].disabled = false;
+      }
+    }
+  //   if (pause.innerText == 'pause'){
+  //   pause.innerText = 'resume';
+  //   // set all other buttons on disabled
+  //   document.getElementById("submit").disabled = true;
+  //   document.getElementById("heart").disabled = true;
+  //   document.getElementById("plus").disabled = true;
+  //   document.getElementById("minus").disabled = true;
+  // }
+  // else {
+  //   pause.innerText = 'pause';
+  //   // set all other buttons on enabled
+  //   document.getElementById("submit").disabled = false;
+  //   document.getElementById("heart").disabled = false;
+  //   document.getElementById("plus").disabled = false;
+  //   document.getElementById("minus").disabled = false;
+  // }
   };
 
   startInterval;
