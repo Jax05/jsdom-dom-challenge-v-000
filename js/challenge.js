@@ -10,7 +10,7 @@
 // As a user, I can leave comments on my gameplay, such as: "Wow, what a fun game this is."
 
 document.addEventListener("DOMContentLoaded", () => {
-  let counter = getElementById("counter");
+  let counter = document.getElementById("counter");
   // let increment = setInterval(incrementTimer, 1000);
 
   incrementTimer();
