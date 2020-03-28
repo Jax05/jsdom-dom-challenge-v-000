@@ -10,5 +10,9 @@
 // As a user, I can leave comments on my gameplay, such as: "Wow, what a fun game this is."
 
 document.addEventListener("DOMContentLoaded", () => {
-  console.log(1 - 2);
+  logThis();
 });
+
+function logThis() {
+  console.log(3);
+};
