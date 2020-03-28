@@ -63,10 +63,11 @@ document.addEventListener("DOMContentLoaded", () => {
 
   function addComment() {
     let form = document.getElementById("comment-form");
+    let input = document.getElementById("comment-input");
 
     form.addEventListener("submit", function(event) {
       let comment = document.createElement("p");
-      comment.innerText = form.value;
+      comment.innerText = input.value;
 
       event.preventDefault();
       comments.append(comment);
