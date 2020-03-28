@@ -58,7 +58,7 @@ document.addEventListener("DOMContentLoaded", () => {
     let like = document.createElement("li");
     like.innerText = counter.innerHTML + " was liked";
 
-    likes.append("li");
+    likes.append(like);
   };
 
   startInterval;
