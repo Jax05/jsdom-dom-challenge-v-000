@@ -9,21 +9,21 @@
 //
 // As a user, I can leave comments on my gameplay, such as: "Wow, what a fun game this is."
 
-// document.addEventListener("DOMContentLoaded", () => {
-//   let counter = document.getElementById("counter").innerHTML;
-//   let incrementCounter = setInterval(increment, 1000);
-//
-//   function increment() {
-//     if (counter <= 10) {
-//       counter++;
-//       // console.log(counter++);
-//     } else {
-//       clearInterval(incrementCounter);
-//     }
-//   };
-//
-//   incrementCounter;
-// });
+document.addEventListener("DOMContentLoaded", () => {
+  let counter = document.getElementById("counter");
+  let incrementCounter = setInterval(increment, 1000);
+
+  function increment() {
+    if (counter.innerHTML <= 10) {
+      counter.innerHTML++;
+      // console.log(counter++);
+    } else {
+      clearInterval(incrementCounter);
+    }
+  };
+
+  incrementCounter;
+});
 
 // function oneSecIncrementer() {
 //   setInterval(function(){
