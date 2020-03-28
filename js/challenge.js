@@ -51,11 +51,11 @@ document.addEventListener("DOMContentLoaded", () => {
       }
         pause.innerText = "pause";
     }
-    
+
     function pauseActive() {
       pause.innerText = "resume"
     };
-    
+
     function pauseNotActive() {
       pause.innerText = "pause";
     };
