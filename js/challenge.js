@@ -66,8 +66,7 @@ document.addEventListener("DOMContentLoaded", () => {
 
     form.addEventListener("submit", function(event) {
       let comment = document.createElement("p");
-      let input = form.value;
-      comment.innerText = input;
+      comment.innerText = form.value;
 
       event.preventDefault();
       comments.append(comment);
