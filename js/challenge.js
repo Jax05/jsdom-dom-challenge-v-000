@@ -18,8 +18,8 @@ document.addEventListener("DOMContentLoaded", () => {
   let pause = document.getElementById("pause");
 
   function incrementPerSecond() {
-    if (counter.innerHTML < 5) { // it's not letting me use counter.innerHTML in a variable for whatever reason
-      counter.innerHTML++;
+    if (counter.innerHTML < 5) {
+      counter.innerHTML++; // it's not letting me use counter.innerHTML in a variable for whatever reason
     } else {
       clearInterval(startInterval);
     }
