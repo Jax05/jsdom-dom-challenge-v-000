@@ -9,7 +9,7 @@ document.addEventListener("DOMContentLoaded", () => {
   let heart = document.getElementById("heart");
   let pause = document.getElementById("pause");
   let submit = document.getElementById("submit");
-  let likes = document.getElementsByClassName("likes");
+  let likes = document.getElementsByClassName("likes")[0];
 
   minus.addEventListener("click", decrement);
   plus.addEventListener("click", increment);
