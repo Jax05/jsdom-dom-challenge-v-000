@@ -45,16 +45,16 @@ document.addEventListener("DOMContentLoaded", () => {
         }
       }
       pause.innerText = "resume";
-    } else if(pauseActive) {
+    } else {
       for (let i = 0; i < buttons.length; i++) {
         buttons[i].disabled = false;
       }
         pause.innerText = "pause";
     }
 
-    function pauseActive() {
-      pause.innerText = "resume"
-    };
+    // function pauseActive() {
+    //   pause.innerText = "resume"
+    // };
 
     function pauseNotActive() {
       pause.innerText = "pause";
