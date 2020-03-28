@@ -17,6 +17,14 @@ document.addEventListener("DOMContentLoaded", () => {
   plus.addEventListener("click", increment);
   pause.addEventListener("click", pauseButtonClicked);
   heart.addEventListener("click", likeButtonClicked);
+  // handles adding comments
+  form.addEventListener("submit", function(event) {
+    let comment = document.createElement("p");
+    comment.innerText = input.value;
+
+    event.preventDefault();
+    comments.appendChild(comment);
+  });
 
   function incrementPerSecond() {
     if (pause.innerText == "pause") {
@@ -62,15 +70,6 @@ document.addEventListener("DOMContentLoaded", () => {
 
     likes.append(like);
   };
-
-// handles adding comments
-  form.addEventListener("submit", function(event) {
-    let comment = document.createElement("p");
-    comment.innerText = input.value;
-
-    event.preventDefault();
-    comments.appendChild(comment);
-  });
 
   startInterval;
 });
