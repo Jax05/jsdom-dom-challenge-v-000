@@ -12,6 +12,10 @@
 document.addEventListener("DOMContentLoaded", () => {
   let startInterval = setInterval(incrementPerSecond, 1000);
   let counter = document.getElementById("counter");
+  let minus = document.getElementById("minus");
+  let plus = document.getElementById("plus");
+  let heart = document.getElementById("heart");
+  let pause = document.getElementById("pause");
 
   function incrementPerSecond() {
     if (counter.innerHTML < 5) {
@@ -21,7 +25,9 @@ document.addEventListener("DOMContentLoaded", () => {
     }
   };
 
-  function increment() {};
+  function increment() {
+    
+  };
 
   function decrement() {};
 
