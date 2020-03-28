@@ -14,8 +14,7 @@ document.addEventListener("DOMContentLoaded", () => {
   // let increment = setInterval(incrementTimer, 1000);
 
   // increment;
+  function incrementTimer() {
+    console.log(counter);
+  };
 });
-
-function incrementTimer() {
-  console.log(counter);
-};
