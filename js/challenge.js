@@ -11,9 +11,9 @@
 
 document.addEventListener("DOMContentLoaded", () => {
   let counter = document.getElementById("counter").innerText;
-  let timer = setInterval(incrementTimer, 1000);
+  let increment = setInterval(incrementTimer, 1000);
 
-  timer;
+  increment;
 });
 
 function incrementTimer() {
