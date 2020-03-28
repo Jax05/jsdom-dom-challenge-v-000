@@ -70,7 +70,7 @@ document.addEventListener("DOMContentLoaded", () => {
       comment.innerText = input.value;
 
       event.preventDefault();
-      comments.append(comment);
+      comments.appendChild(comment);
     });
   }
 
