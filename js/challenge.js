@@ -40,7 +40,9 @@ document.addEventListener("DOMContentLoaded", () => {
 
     if (pause.innerText = "pause") {
       for (let i = 0; i < buttons.length; i++){
-        buttons[i].disabled = true;
+        if (!pause) {
+          buttons[i].disabled = true;
+        }
       }
       pause.innerText = "resume";
     } else {
