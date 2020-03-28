@@ -39,12 +39,14 @@ document.addEventListener("DOMContentLoaded", () => {
   function pauseButtonClicked() {
 
     if (pause.innerText = "pause") {
-      buttons.disabled = true;
+      for (let i = 0; i < buttons.length; i++){
+        buttons[i].disabled = true;
+      }
       pause.innerText = "resume";
     } else {
         buttons.disabled = false;
         pause.innerText = "resume";
-    };
+    }
     //
     // function pauseActive() {
     //
