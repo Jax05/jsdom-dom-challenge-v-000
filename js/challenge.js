@@ -16,8 +16,6 @@ document.addEventListener("DOMContentLoaded", () => {
   function incrementTimer() {
     console.log(counter);
   };
-  
+
   incrementTimer();
 });
-
-
