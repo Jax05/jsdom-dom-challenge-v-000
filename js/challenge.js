@@ -17,6 +17,9 @@ document.addEventListener("DOMContentLoaded", () => {
   let heart = document.getElementById("heart");
   let pause = document.getElementById("pause");
 
+  minus.addEventListener("click", decrement);
+  plus.addEventListener("click", increment);
+
   function incrementPerSecond() {
     if (counter.innerHTML < 5) {
       counter.innerHTML++; // it's not letting me use counter.innerHTML in a variable for whatever reason
