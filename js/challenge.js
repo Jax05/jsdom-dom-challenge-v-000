@@ -51,7 +51,7 @@ document.addEventListener("DOMContentLoaded", () => {
       heart.disabled = false;
       plus.disabled = false;
       minus.disabled = false;
-      
+
       startInterval;
     }
   };
