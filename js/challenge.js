@@ -44,7 +44,7 @@ document.addEventListener("DOMContentLoaded", () => {
     } else {
         buttons.disable = false;
         pause.innerText = "resume";
-    }
+    };
     //
     // function pauseActive() {
     //
