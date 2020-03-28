@@ -37,7 +37,6 @@ document.addEventListener("DOMContentLoaded", () => {
   };
 
   function pauseButtonClicked() {
-    console.log(buttons);
 
     // if (pause.innerText = "pause") {
     //   buttons.disable = true;
@@ -57,4 +56,5 @@ document.addEventListener("DOMContentLoaded", () => {
   };
 
   startInterval;
+  console.log(buttons);
 });
