@@ -37,7 +37,7 @@ document.addEventListener("DOMContentLoaded", () => {
   };
 
   function pauseButtonClicked() {
-    if (pauseNotActive) {
+    if (pause.innerText = "pause") {
       pause.innerText = "resume";
       for (let i = 0; i < buttons.length; i++) {
         if (buttons[i].id != "pause") {
@@ -50,16 +50,7 @@ document.addEventListener("DOMContentLoaded", () => {
         buttons[i].disabled = false;
       }
     }
-
-    // function pauseActive() {
-    //   pause.innerText = "resume"
-    // };
-
-    function pauseNotActive() {
-      pause.innerText = "pause";
-    };
   };
 
   startInterval;
-  console.log(buttons);
 });
