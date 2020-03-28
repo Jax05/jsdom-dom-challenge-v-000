@@ -14,7 +14,7 @@ document.addEventListener("DOMContentLoaded", () => {
   let incrementCounter = setInterval(increment, 1000);
 
   function increment() {
-    while(counter <= 5) {
+    while(counter <= 10) {
       console.log(counter);
       counter++;
     };
