@@ -68,7 +68,7 @@ document.addEventListener("DOMContentLoaded", () => {
       let comment = document.createElement("p");
       let input = form.value;
       comment.innerText = input;
-      
+
       event.preventDefault();
       comments.append(comment);
     });
