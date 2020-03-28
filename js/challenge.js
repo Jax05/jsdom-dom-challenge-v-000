@@ -36,19 +36,16 @@ document.addEventListener("DOMContentLoaded", () => {
   };
 
   function pauseButtonClicked() {
-
+    let buttons = document.getElementsByTagName("button");
+    
+    if (pause.innerText = "pause") {
+      buttons.disable = true;
+      pause.innerText = "resume";
+    } else {
+        buttons.disable = false;
+        pause.innerText = "resume";
+    }
   };
 
   startInterval;
 });
-
-// function oneSecIncrementer() {
-//   setInterval(function(){
-//     let pause = document.getElementById('pause')
-//     if(pause.innerText == "pause"){
-//       let counter = document.getElementById('counter');
-//       counter.innerHTML++;
-//     }
-//   }, 1000);
-// }
-// window.onload = oneSecIncrementer();
