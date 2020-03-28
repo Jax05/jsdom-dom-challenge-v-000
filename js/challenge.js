@@ -58,6 +58,6 @@ document.addEventListener("DOMContentLoaded", () => {
     likes.append("li")
     counter.innerHTML
   };
-  
+
   startInterval;
 });
