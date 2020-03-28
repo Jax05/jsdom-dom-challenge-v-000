@@ -46,13 +46,13 @@ document.addEventListener("DOMContentLoaded", () => {
     //     buttons.disable = false;
     //     pause.innerText = "resume";
     // }
-    // 
+    //
     // function pauseActive() {
-    //   
+    //
     // };
-    // 
+    //
     // function pauseNotActive() {
-    //   
+    //
     // };
   };
 
