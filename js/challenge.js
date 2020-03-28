@@ -1,3 +1,4 @@
+// As a user, I can manually increment and decrement the counter using the plus and minus buttons.
 // As a user, I can 'like' an individual number of the counter. I should see count of the number of 'likes' associated with that number.
 // As a user, I can pause the counter, which should
 // pause the counter
@@ -19,7 +20,7 @@ document.addEventListener("DOMContentLoaded", () => {
   plus.addEventListener("click", increment);
 
   function incrementPerSecond() {
-    if (pause.innerText == "pause") {
+    if (counter.innerHTML < 5) {
       counter.innerHTML++; // it's not letting me use counter.innerHTML in a variable for whatever reason
     } else {
       clearInterval(startInterval);
