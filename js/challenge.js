@@ -15,7 +15,7 @@ document.addEventListener("DOMContentLoaded", () => {
 
   function increment() {
     if (counter < 10) {
-      counter = counter++;
+      counter++;
     } else {
       clearInterval(incrementCounter);
     }
