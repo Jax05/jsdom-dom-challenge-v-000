@@ -10,6 +10,7 @@ document.addEventListener("DOMContentLoaded", () => {
   let pause = document.getElementById("pause");
   let submit = document.getElementById("submit");
   let likes = document.getElementsByClassName("likes")[0];
+  let comments = document.getElementById("list");
 
   minus.addEventListener("click", decrement);
   plus.addEventListener("click", increment);
