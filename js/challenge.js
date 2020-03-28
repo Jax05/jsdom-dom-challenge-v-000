@@ -14,6 +14,7 @@ document.addEventListener("DOMContentLoaded", () => {
   minus.addEventListener("click", decrement);
   plus.addEventListener("click", increment);
   pause.addEventListener("click", pauseButtonClicked);
+  heart.addEventListener("click", likeButtonClicked);
 
   function incrementPerSecond() {
     if (pause.innerText == "pause") {
