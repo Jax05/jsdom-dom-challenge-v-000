@@ -14,6 +14,7 @@ document.addEventListener("DOMContentLoaded", () => {
   let plus = document.getElementById("plus");
   let heart = document.getElementById("heart");
   let pause = document.getElementById("pause");
+  let submit = document.getElementById("submit");
 
   minus.addEventListener("click", decrement);
   plus.addEventListener("click", increment);
@@ -39,14 +40,14 @@ document.addEventListener("DOMContentLoaded", () => {
     if (pause.innerText == "pause") {
       pause.innerText = "resume";
 
-      document.getElementById("submit").disabled = true;
+      submit.disabled = true;
       heart.disabled = true;
       plus.disabled = true;
       minus.disabled = true;
     } else {
       pause.innerText = "pause";
 
-      document.getElementById("submit").disabled = false;
+      submit.disabled = false;
       heart.disabled = false;
       plus.disabled = false;
       minus.disabled = false;
