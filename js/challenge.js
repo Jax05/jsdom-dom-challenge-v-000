@@ -40,7 +40,7 @@ document.addEventListener("DOMContentLoaded", () => {
 
     if (pause.innerText = "pause") {
       for (let i = 0; i < buttons.length; i++){
-        if (!pause) {
+        if (buttons[i].id != "pause") {
           buttons[i].disabled = true;
         }
       }
