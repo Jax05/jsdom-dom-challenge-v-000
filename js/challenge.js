@@ -39,10 +39,10 @@ document.addEventListener("DOMContentLoaded", () => {
   function pauseButtonClicked() {
 
     if (pause.innerText = "pause") {
-      buttons.disable = true;
+      buttons.disabled = true;
       pause.innerText = "resume";
     } else {
-        buttons.disable = false;
+        buttons.disabled = false;
         pause.innerText = "resume";
     };
     //
