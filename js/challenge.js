@@ -14,6 +14,7 @@ document.addEventListener("DOMContentLoaded", () => {
   let plus = document.getElementById("plus");
   let heart = document.getElementById("heart");
   let pause = document.getElementById("pause");
+  let buttons = document.getElementsByTagName("button");
 
   minus.addEventListener("click", decrement);
   plus.addEventListener("click", increment);
@@ -36,7 +37,6 @@ document.addEventListener("DOMContentLoaded", () => {
   };
 
   function pauseButtonClicked() {
-    let buttons = document.getElementsByTagName("button");
     console.log(buttons);
 
     // if (pause.innerText = "pause") {
