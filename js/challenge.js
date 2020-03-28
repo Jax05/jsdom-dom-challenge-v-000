@@ -58,6 +58,7 @@ document.addEventListener("DOMContentLoaded", () => {
       plus.disabled = false;
       minus.disabled = false;
 
+      // restart counter
       startInterval = setInterval(incrementPerSecond, 1000);
     }
   };
