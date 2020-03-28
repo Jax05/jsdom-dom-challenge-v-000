@@ -15,8 +15,8 @@ document.addEventListener("DOMContentLoaded", () => {
 
   function increment() {
     while(counter <= 5) {
-      counter++;
       console.log(counter);
+      counter++;
     };
   };
 
