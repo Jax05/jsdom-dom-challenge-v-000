@@ -25,13 +25,13 @@
 //   incrementCounter;
 // });
 
-function oneSecIncrementer() {
-  setInterval(function(){
-    let pause = document.getElementById('pause')
-    if(pause.innerText == "pause"){
-      let counter = document.getElementById('counter');
-      counter.innerHTML++;
-    }
-  }, 1000);
-}
-window.onload = oneSecIncrementer();
+// function oneSecIncrementer() {
+//   setInterval(function(){
+//     let pause = document.getElementById('pause')
+//     if(pause.innerText == "pause"){
+//       let counter = document.getElementById('counter');
+//       counter.innerHTML++;
+//     }
+//   }, 1000);
+// }
+// window.onload = oneSecIncrementer();
