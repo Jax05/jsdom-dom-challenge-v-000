@@ -12,7 +12,7 @@
 // document.addEventListener("DOMContentLoaded", () => {
 //   let counter = document.getElementById("counter").innerHTML;
 //   let incrementCounter = setInterval(increment, 1000);
-// 
+//
 //   function increment() {
 //     if (counter <= 10) {
 //       counter++;
@@ -21,7 +21,7 @@
 //       clearInterval(incrementCounter);
 //     }
 //   };
-// 
+//
 //   incrementCounter;
 // });
 
