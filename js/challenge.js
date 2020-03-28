@@ -61,7 +61,7 @@ document.addEventListener("DOMContentLoaded", () => {
     likes.append(like);
   };
 
-  function addComment() {
+  // function addComment() {
     let form = document.getElementById("comment-form");
     let input = document.getElementById("comment-input");
 
@@ -72,7 +72,7 @@ document.addEventListener("DOMContentLoaded", () => {
       event.preventDefault();
       comments.appendChild(comment);
     });
-  }
+  // }
 
   startInterval;
 });
