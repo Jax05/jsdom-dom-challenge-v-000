@@ -36,7 +36,7 @@ document.addEventListener("DOMContentLoaded", () => {
     counter.innerHTML--;
   };
 
-  function pauseButtonClicked() {
+  function pauseButtonClicked() { // terrible code but couldn't get it to work with a loop
     if (pause.innerText == "pause") {
       pause.innerText = "resume";
 
@@ -46,6 +46,7 @@ document.addEventListener("DOMContentLoaded", () => {
       minus.disabled = true;
     } else {
       pause.innerText = "pause";
+      counter.innerHTML = "0";
 
       submit.disabled = false;
       heart.disabled = false;
