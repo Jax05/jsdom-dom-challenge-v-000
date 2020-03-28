@@ -9,6 +9,7 @@ document.addEventListener("DOMContentLoaded", () => {
   let heart = document.getElementById("heart");
   let pause = document.getElementById("pause");
   let submit = document.getElementById("submit");
+  let likes = document.getElementByClass("likes");
 
   minus.addEventListener("click", decrement);
   plus.addEventListener("click", increment);
@@ -16,7 +17,7 @@ document.addEventListener("DOMContentLoaded", () => {
 
   function incrementPerSecond() {
     if (pause.innerText == "pause") {
-      counter.innerHTML++; // it's not letting me use counter.innerHTML in a variable for whatever reason
+      counter.innerHTML++;
     } else {
       clearInterval(startInterval);
     }
@@ -52,5 +53,11 @@ document.addEventListener("DOMContentLoaded", () => {
     }
   };
 
+  function likeButtonClicked() {
+    let like = document.createElement("li");
+    likes.append("li")
+    counter.innerHTML
+  };
+  
   startInterval;
 });
