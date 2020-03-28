@@ -63,8 +63,7 @@ document.addEventListener("DOMContentLoaded", () => {
     likes.append(like);
   };
 
-
-
+// handles adding comments
   form.addEventListener("submit", function(event) {
     let comment = document.createElement("p");
     comment.innerText = input.value;
