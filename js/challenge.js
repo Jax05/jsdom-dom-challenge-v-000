@@ -13,9 +13,11 @@ document.addEventListener("DOMContentLoaded", () => {
   let counter = document.getElementById("h1").innerText;
   // let increment = setInterval(incrementTimer, 1000);
 
+  function incrementTimer() {
+    console.log(counter);
+  };
+  
   incrementTimer();
 });
 
-function incrementTimer() {
-  console.log(counter);
-};
+
