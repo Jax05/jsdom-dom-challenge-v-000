@@ -37,7 +37,6 @@ document.addEventListener("DOMContentLoaded", () => {
   };
 
   function pauseButtonClicked() {
-
     if (pauseNotActive) {
       for (let i = 0; i < buttons.length; i++) {
         if (buttons[i].id != "pause") {
