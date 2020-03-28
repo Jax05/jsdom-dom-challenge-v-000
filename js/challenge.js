@@ -37,7 +37,7 @@ document.addEventListener("DOMContentLoaded", () => {
   };
 
   function pauseButtonClicked() {
-    if (pause.innerText == 'pause') {
+    if (pause.innerText == "pause") {
       pause.innerText = 'resume';
 
       document.getElementById("submit").disabled = true;
