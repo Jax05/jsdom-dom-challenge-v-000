@@ -37,7 +37,7 @@ document.addEventListener("DOMContentLoaded", () => {
 
   function pauseButtonClicked() {
     let buttons = document.getElementsByTagName("button");
-    
+
     if (pause.innerText = "pause") {
       buttons.disable = true;
       pause.innerText = "resume";
