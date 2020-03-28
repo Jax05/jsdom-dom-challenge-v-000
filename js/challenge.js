@@ -11,7 +11,7 @@
 
 document.addEventListener("DOMContentLoaded", () => {
   let counter = document.getElementById("counter");
-  let incrementCounter = setInterval(incrementPerSecond, 1000);
+  let increment = setInterval(incrementPerSecond, 1000);
 
   function incrementPerSecond() {
     if (counter.innerHTML < 5) {
@@ -21,7 +21,9 @@ document.addEventListener("DOMContentLoaded", () => {
     }
   };
 
-  incrementCounter;
+  // function 
+
+  increment;
 });
 
 // function oneSecIncrementer() {
